@@ -65,5 +65,36 @@ public class Main {
 		int num = 85;
 		boolean result = (num >=0) ? true : false;
 		System.out.println(result);
+
+		// Switch-Case : Easier & Simpler Version Of If-else Statement
+		// 🚨 If you don't use break be-default all the cases will be executed
+		int day=1;
+		switch (day){
+			case 1:
+				System.out.println("The Day is Saturday");
+				break;
+			case 2:
+				System.out.println("The Day is Sunday");
+				break;
+			case 3:
+				System.out.println("The Day is Monday");
+				break;
+			case 4:
+				System.out.println("The Day is Tuesday");
+				break;
+			case 5:
+				System.out.println("The Day is Wednesday");
+				break;
+			case 6:
+				System.out.println("The Day is Thursday");
+				break;
+			case 7:
+				System.out.println("The Day is Friday");
+				break;
+			default:
+				System.out.println("The Day is out of program");
+				break;
+		}
+
 	}
 }
